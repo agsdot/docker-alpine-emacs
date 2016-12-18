@@ -1,0 +1,13 @@
+version: '2'
+services:
+  emacs:
+    build: .
+    volumes:
+      - $HOME:/root
+      - elpa:/root/.emacs.d/elpa
+      - npm:/usr/lib/node_modules
+      - bundle:/usr/local/bundle
+volumes:
+  elpa:
+  bundle:
+  npm:

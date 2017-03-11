@@ -4,16 +4,14 @@
 
 # Docker alpine emacs
 
-This image is based on [afsmnghr/docker-alpine-ruby:2.3.0](https://github.com/AfsmNGhr/docker-alpine-ruby)
-
 ![Emacs](https://raw.githubusercontent.com/myuhe/org-gcal.el/master/emacs.png)
 
 ## Version
 
-- `1.0.0` [(Dockerfile)](https://github.com/afsmnghr/docker-alpine-emacs/blob/master/Dockerfile)
+- `1.1.0` [(Dockerfile)](https://github.com/afsmnghr/docker-alpine-emacs/blob/master/Dockerfile)
 
 ## How to use this image
 ```bash
 cd docker-alpine-emacs/
-docker-compose run -u $UID --rm emacs
+docker-compose run --rm emacs
 ```
